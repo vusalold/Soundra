@@ -9,7 +9,7 @@ plugins {
 
 android {
     namespace = "com.vusal.soundra"
-    compileSdk = 37
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.vusal.soundra"
@@ -24,8 +24,20 @@ android {
         }
     }
 
+    signingConfigs {
+        create("release") {
+            storeFile = file("${rootProject.projectDir}/keystore/soundra-release-key.jks")
+            storePassword = "soundra2026"
+            keyAlias = "soundra"
+            keyPassword = "soundra2026"
+            enableV1Signing = true
+            enableV2Signing = true
+        }
+    }
+
     buildTypes {
         release {
+            signingConfig = signingConfigs.getByName("release")
             optimization {
                 enable = false
             }
