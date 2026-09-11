@@ -1,0 +1,290 @@
+<resources>
+    <string name="app_name">Soundra</string>
+
+    <!-- App Modes -->
+    <string name="mode_search">Search</string>
+    <string name="mode_link">Link</string>
+
+    <string name="unknown">Unknown</string>
+    <string name="recent_searches">Recent searches</string>
+    <string name="file_missing">File not found</string>
+    <string name="tag_album">Soundra Downloads</string>
+    <string name="tag_comment">Downloaded with Soundra</string>
+    <string name="btn_download">Download</string>
+    <string name="clipboard_detected">YouTube link detected</string>
+    <string name="search_hint_youtube">Search on YouTube…</string>
+    <string name="search_hint_downloads">Search in downloads…</string>
+    <string name="paste_hint">Paste YouTube link</string>
+    <string name="paste_hint_full">Paste YouTube link here</string>
+    <string name="btn_download_mp3">Download as MP3</string>
+    <string name="btn_download_mp3_caps">DOWNLOAD MP3</string>
+    <string name="bitrate_kbps">%d kbps</string>
+    <string name="bitrate_kbps_ext">%d kbps (%s)</string>
+    <string name="btn_start_download">Start Download</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_close">Close</string>
+    <string name="btn_retry">Retry</string>
+    <string name="btn_retry_check">Check again</string>
+    <string name="btn_change">Change</string>
+    <string name="btn_only_list">From List Only</string>
+    <string name="btn_delete_file">Delete file too</string>
+    <string name="btn_start_now">Start now</string>
+    <string name="btn_pause">Pause</string>
+    <string name="btn_resume">Resume</string>
+    <string name="btn_share">Share</string>
+    <string name="btn_open">Open</string>
+    <string name="btn_rename">Rename</string>
+    <string name="btn_properties">Properties</string>
+    <string name="btn_delete">Delete</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_appearance">Appearance</string>
+    <string name="settings_downloads_group">Downloads</string>
+    <string name="settings_general">General</string>
+    <string name="settings_about">About</string>
+    <string name="settings_quality">Download quality</string>
+    <string name="settings_storage_path">Storage path</string>
+    <string name="settings_language">Language</string>
+    <string name="lang_az">Azərbaycanca</string>
+    <string name="lang_tr">Türkçe</string>
+    <string name="lang_en">English</string>
+    <string name="lang_ru">Russian</string>
+    <string name="settings_version">Version</string>
+    <string name="settings_developer">Developer</string>
+    <string name="settings_theme">Theme</string>
+    <string name="theme_mode">Theme</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="theme_system">System</string>
+
+    <!-- Download Options Sheet -->
+    <string name="download_options">Download Options</string>
+    <string name="available_quality">AVAILABLE AUDIO QUALITY</string>
+    <string name="best_quality">BEST AVAILABLE QUALITY</string>
+    <string name="estimated_size">Estimated size: %s</string>
+    <string name="recommended">Recommended</string>
+    <string name="quality_label">QUALITY</string>
+
+    <!-- Status Messages -->
+    <string name="status_reading_metadata">Reading metadata…</string>
+    <string name="status_checking_metadata">Checking metadata…</string>
+    <string name="status_ready_to_download">Ready to download</string>
+    <string name="status_preparing_download">Preparing download…</string>
+    <string name="status_analyzing_youtube">Analyzing YouTube audio…</string>
+    <string name="status_downloading">Downloading…</string>
+    <string name="status_downloading_caps">DOWNLOADING: %d%%</string>
+    <string name="status_downloaded_caps">DOWNLOADED</string>
+    <string name="status_converting">Converting (%s)…</string>
+    <string name="status_writing_metadata">Writing to storage…</string>
+    <string name="status_completed">Completed!</string>
+    <string name="status_wait">Wait: %% %d</string>
+    <string name="status_song_downloading">Song is downloading…</string>
+    <string name="status_download_completed">Download completed</string>
+
+    <!-- Download Status Chips -->
+    <string name="state_queued">Queued</string>
+    <string name="state_preparing">Preparing</string>
+    <string name="state_downloading">Downloading</string>
+    <string name="state_converting">Converting</string>
+    <string name="state_writing">Saving</string>
+    <string name="state_completed">Completed</string>
+    <string name="state_failed">Error</string>
+    <string name="state_cancelled">Cancelled</string>
+    <string name="state_paused">Paused</string>
+    <string name="state_resuming">Resuming</string>
+
+    <!-- Downloads Screen -->
+    <string name="downloads_title">Downloads</string>
+    <string name="stats_storage">Storage</string>
+    <string name="stats_completed">Completed</string>
+    <string name="stats_active">Active</string>
+    <string name="stats_queued">Queued</string>
+    <string name="stats_paused">Paused</string>
+
+    <string name="filter_all">All</string>
+    <string name="filter_active">Active (%d)</string>
+    <string name="filter_completed">Completed (%d)</string>
+    <string name="filter_failed">Failed (%d)</string>
+    <string name="filter_queued">Queued (%d)</string>
+
+    <string name="no_results">No results found</string>
+    <string name="no_downloads">No downloads</string>
+    <string name="share_song">Share song</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_delete_title">Delete?</string>
+    <string name="dialog_delete_message">Delete %s from list?</string>
+    <string name="dialog_rename_title">Rename</string>
+    <string name="dialog_rename_error_empty">Name cannot be empty</string>
+    <string name="dialog_rename_label">New name</string>
+
+    <string name="dialog_properties_title">File properties</string>
+    <string name="dialog_properties_unavailable_title">No data</string>
+    <string name="dialog_properties_unavailable_msg">Information for this file is unavailable. The file may have been deleted or corrupted.</string>
+
+    <string name="prop_title">Title</string>
+    <string name="prop_file_name">File name</string>
+    <string name="prop_duration">Duration</string>
+    <string name="prop_bitrate">Bitrate</string>
+    <string name="prop_sample_rate">Sample Rate</string>
+    <string name="prop_channels">Channels</string>
+    <string name="prop_format">Format</string>
+    <string name="prop_size">Size</string>
+    <string name="prop_created">Created</string>
+    <string name="prop_modified">Modified</string>
+    <string name="prop_path">Full path</string>
+    <string name="prop_uri">URI</string>
+
+    <!-- Search -->
+    <string name="search_home_title">Home</string>
+    <string name="search_empty_title">Search song or artist</string>
+    <string name="search_empty_msg">Start from top to find your favorites</string>
+    <string name="search_error_title">Search error</string>
+
+    <string name="cat_all">All</string>
+    <string name="cat_music">Music</string>
+    <string name="cat_gaming">Gaming</string>
+    <string name="cat_live">Live</string>
+    <string name="cat_news">News</string>
+    <string name="cat_mixes">Mixes</string>
+    <string name="cat_recs">Recommendations</string>
+    <string name="cat_popular">Popular</string>
+
+    <string name="views_format">%s views</string>
+    <string name="views_billion">%.1fB</string>
+    <string name="views_million">%.1fM</string>
+    <string name="views_thousand">%.1fK</string>
+
+    <!-- Errors & Snackbars -->
+    <string name="err_link_not_found">Song link not found</string>
+    <string name="err_preview_failed">Could not preview</string>
+    <string name="err_video_not_loaded">Video not loaded</string>
+    <string name="err_metadata_not_found">Video info not found</string>
+    <string name="err_analysis_failed">Analysis error</string>
+    <string name="err_analysis_timeout">Analysis timed out</string>
+    <string name="err_rename_success">Name changed</string>
+    <string name="err_rename_failed">Could not change name</string>
+    <string name="err_analysis_impossible">Could not analyze video</string>
+    <string name="err_load_failed">Could not load info</string>
+    <string name="err_search_failed">An error occurred during search</string>
+    <string name="err_already_downloaded">This song is already downloaded</string>
+    <string name="err_already_in_queue">This download already exists</string>
+    <string name="err_download_start_failed">Could not start download</string>
+    <string name="err_file_not_found">Downloaded file not found</string>
+    <string name="err_download_error_code">Download error (Code: %d)</string>
+    <string name="permission_notif_denied">Download notifications are not shown because permission was not granted.</string>
+
+    <!-- New UI Strings -->
+    <string name="label_audio_quality_caps">AUDIO QUALITY</string>
+    <string name="btn_download_mp3_large">DOWNLOAD AS MP3</string>
+    <string name="status_analyzing_dots">Analyzing…</string>
+    <string name="empty_downloads_title">No downloads yet</string>
+    <string name="empty_downloads_msg">Start discovering new music!</string>
+    <string name="btn_delete_confirm">Delete file</string>
+    <string name="btn_listen_now_caps">LISTEN NOW</string>
+    <string name="recent_searches_header">Recent searches</string>
+    <string name="search_results_header">Search results</string>
+
+    <!-- Notifications -->
+    <string name="notif_downloading">Downloading…</string>
+    <string name="notif_converting">Converting…</string>
+    <string name="notif_writing">Saving to storage…</string>
+    <string name="notif_completed">Completed</string>
+    <string name="notif_failed">Failed</string>
+    <string name="notif_paused">Paused</string>
+    <string name="notif_click_to_open">Click to open</string>
+    <string name="notif_channel_name">MP3 Downloads</string>
+    <string name="notif_channel_desc">Soundra Background Downloads</string>
+    <string name="notif_download_complete">Download completed</string>
+    <string name="notif_completed_channel_name">Completed Downloads</string>
+
+    <!-- Updates -->
+    <string name="update_available">New version available</string>
+    <string name="update_version">Version: %s</string>
+    <string name="update_changelog">What\'s new:</string>
+    <string name="update_ready">Soundra is ready to install</string>
+    <string name="update_downloading">Downloading new version</string>
+    <string name="update_notif_title">Soundra update</string>
+    <string name="btn_update">Update</string>
+    <string name="btn_later">Later</string>
+    <string name="btn_install">Install</string>
+    <string name="eta_label">Remaining time: %s</string>
+
+    <!-- UI Redesign Strings -->
+    <string name="home_search_title">Search song</string>
+    <string name="home_search_subtitle">Search for artist or song</string>
+    <string name="home_popular_title">Popular</string>
+    <string name="downloads_stat_active">Active</string>
+    <string name="downloads_stat_queued">Queued</string>
+    <string name="downloads_stat_completed">Finished</string>
+    <string name="downloads_section_active">Now downloading</string>
+    <string name="downloads_section_queue">Download queue</string>
+    <string name="downloads_section_completed">Completed</string>
+    <string name="downloads_section_paused">Paused</string>
+    <string name="downloads_empty_title">Library is empty</string>
+    <string name="greeting_morning">Hello 👋</string>
+    <string name="greeting_day">Hello 👋</string>
+    <string name="greeting_evening">Hello 👋</string>
+    <string name="greeting_msg">Ready to discover new music today?</string>
+    <string name="settings_section_language">LANGUAGE</string>
+    <string name="settings_section_downloads">DOWNLOADS</string>
+    <string name="settings_section_about">ABOUT</string>
+    <string name="results_title">Results</string>
+
+    <!-- Personalized Feed -->
+    <string name="home_for_you">For you</string>
+    <string name="home_recent_searches">Recent searches</string>
+    <string name="home_empty_history_msg">Search for a song to start</string>
+    <string name="home_new_recommendations">New recommendations</string>
+    <string name="home_refresh">Refresh</string>
+
+    <!-- Search Suggestions & History -->
+    <string name="search_suggestions">Suggestions</string>
+    <string name="search_clear_all">Clear all</string>
+    <string name="search_no_history">No search history</string>
+    <string name="search_recent">Recent searches</string>
+    <string name="quality_best_available">Best available</string>
+    <string name="quality_label_bitrate">Bitrate</string>
+
+    <!-- Downloads Menu & Dialogs -->
+    <string name="menu_open">Open</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_show_location">Show file location</string>
+    <string name="menu_remove_from_list">Remove from list</string>
+    <string name="menu_delete_file">Delete file</string>
+    <string name="dialog_delete_file_title">Delete file?</string>
+    <string name="dialog_delete_file_msg">This MP3 file will be permanently removed from your device.</string>
+
+    <!-- Playlists -->
+    <string name="playlists_title">Playlists</string>
+    <string name="btn_create_playlist">New Playlist</string>
+    <string name="dialog_create_playlist_title">Create playlist</string>
+    <string name="dialog_rename_playlist_title">Rename</string>
+    <string name="playlist_name_hint">Playlist name</string>
+    <string name="btn_create">Create</string>
+    <string name="dialog_delete_playlist_title">Delete playlist?</string>
+    <string name="dialog_delete_playlist_msg">\"%s\" and its contents will be deleted.</string>
+    <string name="no_playlists">No playlists yet</string>
+    <string name="no_playlists_msg">Create your first playlist and keep your music organized.</string>
+    <string name="menu_add_to_playlist">Add to playlist</string>
+    <string name="menu_remove_from_playlist">Remove from playlist</string>
+    <string name="already_in_playlist">Already in playlist</string>
+    <string name="added_to_playlist">Added to playlist</string>
+    <string name="btn_play_all">Play all</string>
+    <string name="songs_count">%d songs</string>
+    <string name="menu_change_cover">Change cover</string>
+    <string name="menu_remove_cover">Remove cover</string>
+    <string name="playlist_created_on">Created on %s</string>
+    <string name="sort_recent">Recently Added</string>
+    <string name="sort_oldest">Oldest</string>
+    <string name="sort_az">Name A-Z</string>
+    <string name="sort_za">Name Z-A</string>
+    <string name="home_hero_greeting">What do you want to\nlisten to today?</string>
+    <string name="player_now_playing">Now Playing</string>
+    <string name="player_next">Next</string>
+    <string name="player_previous">Previous</string>
+    <string name="player_repeat">Repeat</string>
+    <string name="player_shuffle">Shuffle</string>
+    <string name="err_file_unavailable">File unavailable</string>
+</resources>

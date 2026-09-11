@@ -1,0 +1,290 @@
+<resources>
+    <string name="app_name">Soundra</string>
+
+    <!-- App Modes -->
+    <string name="mode_search">Поиск</string>
+    <string name="mode_link">Ссылка</string>
+
+    <string name="unknown">Неизвестно</string>
+    <string name="recent_searches">Недавние поиски</string>
+    <string name="file_missing">Файл не найден</string>
+    <string name="tag_album">Загрузки Soundra</string>
+    <string name="tag_comment">Загружено с помощью Soundra</string>
+    <string name="btn_download">Скачать</string>
+    <string name="clipboard_detected">Обнаружена ссылка YouTube</string>
+    <string name="search_hint_youtube">Поиск на YouTube…</string>
+    <string name="search_hint_downloads">Поиск в загрузках…</string>
+    <string name="paste_hint">Вставьте ссылку YouTube</string>
+    <string name="paste_hint_full">Вставьте ссылку YouTube здесь</string>
+    <string name="btn_download_mp3">Скачать как MP3</string>
+    <string name="btn_download_mp3_caps">СКАЧАТЬ MP3</string>
+    <string name="bitrate_kbps">%d кбит/с</string>
+    <string name="bitrate_kbps_ext">%d кбит/с (%s)</string>
+    <string name="btn_start_download">Начать загрузку</string>
+    <string name="btn_cancel">Отмена</string>
+    <string name="btn_close">Закрыть</string>
+    <string name="btn_retry">Повторить</string>
+    <string name="btn_retry_check">Проверить еще раз</string>
+    <string name="btn_change">Изменить</string>
+    <string name="btn_only_list">Только из списка</string>
+    <string name="btn_delete_file">Также удалить файл</string>
+    <string name="btn_start_now">Начать сейчас</string>
+    <string name="btn_pause">Пауза</string>
+    <string name="btn_resume">Продолжить</string>
+    <string name="btn_share">Поделиться</string>
+    <string name="btn_open">Открыть</string>
+    <string name="btn_rename">Переименовать</string>
+    <string name="btn_properties">Свойства</string>
+    <string name="btn_delete">Удалить</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Настройки</string>
+    <string name="settings_appearance">Внешний вид</string>
+    <string name="settings_downloads_group">Загрузки</string>
+    <string name="settings_general">Общие</string>
+    <string name="settings_about">О приложении</string>
+    <string name="settings_quality">Качество загрузки</string>
+    <string name="settings_storage_path">Путь сохранения</string>
+    <string name="settings_language">Язык</string>
+    <string name="lang_az">Азербайджанский</string>
+    <string name="lang_tr">Турецкий</string>
+    <string name="lang_en">Английский</string>
+    <string name="lang_ru">Русский</string>
+    <string name="settings_version">Версия</string>
+    <string name="settings_developer">Разработчик</string>
+    <string name="settings_theme">Тема</string>
+    <string name="theme_mode">Тема</string>
+    <string name="theme_light">Светлая</string>
+    <string name="theme_dark">Темная</string>
+    <string name="theme_system">Системная</string>
+
+    <!-- Download Options Sheet -->
+    <string name="download_options">Параметры загрузки</string>
+    <string name="available_quality">ДОСТУПНОЕ КАЧЕСТВО АУДИО</string>
+    <string name="best_quality">ЛУЧШЕЕ ДОСТУПНОЕ КАЧЕСТВО</string>
+    <string name="estimated_size">Примерный размер: %s</string>
+    <string name="recommended">Рекомендуется</string>
+    <string name="quality_label">КАЧЕСТВО</string>
+
+    <!-- Status Messages -->
+    <string name="status_reading_metadata">Чтение метаданных…</string>
+    <string name="status_checking_metadata">Проверка метаданных…</string>
+    <string name="status_ready_to_download">Готово к загрузке</string>
+    <string name="status_preparing_download">Подготовка к загрузке…</string>
+    <string name="status_analyzing_youtube">Анализ аудио YouTube…</string>
+    <string name="status_downloading">Загрузка…</string>
+    <string name="status_downloading_caps">ЗАГРУЗКА: %d%%</string>
+    <string name="status_downloaded_caps">ЗАГРУЖЕНО</string>
+    <string name="status_converting">Конвертация (%s)…</string>
+    <string name="status_writing_metadata">Сохранение…</string>
+    <string name="status_completed">Завершено!</string>
+    <string name="status_wait">Ожидание: %% %d</string>
+    <string name="status_song_downloading">Песня загружается…</string>
+    <string name="status_download_completed">Загрузка завершена</string>
+
+    <!-- Download Status Chips -->
+    <string name="state_queued">В очереди</string>
+    <string name="state_preparing">Подготовка</string>
+    <string name="state_downloading">Загрузка</string>
+    <string name="state_converting">Конвертация</string>
+    <string name="state_writing">Сохранение</string>
+    <string name="state_completed">Завершено</string>
+    <string name="state_failed">Ошибка</string>
+    <string name="state_cancelled">Отменено</string>
+    <string name="state_paused">Приостановлено</string>
+    <string name="state_resuming">Возобновление</string>
+
+    <!-- Downloads Screen -->
+    <string name="downloads_title">Загрузки</string>
+    <string name="stats_storage">Память</string>
+    <string name="stats_completed">Завершено</string>
+    <string name="stats_active">Активно</string>
+    <string name="stats_queued">В очереди</string>
+    <string name="stats_paused">Пауза</string>
+
+    <string name="filter_all">Все</string>
+    <string name="filter_active">Активно (%d)</string>
+    <string name="filter_completed">Завершено (%d)</string>
+    <string name="filter_failed">Ошибка (%d)</string>
+    <string name="filter_queued">В очереди (%d)</string>
+
+    <string name="no_results">Ничего не найдено</string>
+    <string name="no_downloads">Нет загрузок</string>
+    <string name="share_song">Поделиться песней</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_delete_title">Удалить?</string>
+    <string name="dialog_delete_message">Удалить %s из списка?</string>
+    <string name="dialog_rename_title">Переименовать</string>
+    <string name="dialog_rename_error_empty">Имя не может быть пустым</string>
+    <string name="dialog_rename_label">Новое имя</string>
+
+    <string name="dialog_properties_title">Свойства файла</string>
+    <string name="dialog_properties_unavailable_title">Нет данных</string>
+    <string name="dialog_properties_unavailable_msg">Информация об этом файле недоступна. Файл мог быть удален или поврежден.</string>
+
+    <string name="prop_title">Заголовок</string>
+    <string name="prop_file_name">Имя файла</string>
+    <string name="prop_duration">Длительность</string>
+    <string name="prop_bitrate">Битрейт</string>
+    <string name="prop_sample_rate">Частота дискретизации</string>
+    <string name="prop_channels">Каналы</string>
+    <string name="prop_format">Формат</string>
+    <string name="prop_size">Размер</string>
+    <string name="prop_created">Создан</string>
+    <string name="prop_modified">Изменен</string>
+    <string name="prop_path">Полный путь</string>
+    <string name="prop_uri">URI</string>
+
+    <!-- Search -->
+    <string name="search_home_title">Главная</string>
+    <string name="search_empty_title">Поиск песни или исполнителя</string>
+    <string name="search_empty_msg">Начните поиск, чтобы найти любимые треки</string>
+    <string name="search_error_title">Ошибка поиска</string>
+
+    <string name="cat_all">Все</string>
+    <string name="cat_music">Музыка</string>
+    <string name="cat_gaming">Игры</string>
+    <string name="cat_live">Прямой эфир</string>
+    <string name="cat_news">Новости</string>
+    <string name="cat_mixes">Миксы</string>
+    <string name="cat_recs">Рекомендации</string>
+    <string name="cat_popular">Популярное</string>
+
+    <string name="views_format">%s просмотров</string>
+    <string name="views_billion">%.1f млрд</string>
+    <string name="views_million">%.1f млн</string>
+    <string name="views_thousand">%.1f тыс.</string>
+
+    <!-- Errors & Snackbars -->
+    <string name="err_link_not_found">Ссылка на песню не найдена</string>
+    <string name="err_preview_failed">Не удалось прослушать</string>
+    <string name="err_video_not_loaded">Видео не загружено</string>
+    <string name="err_metadata_not_found">Информация о видео не найдена</string>
+    <string name="err_analysis_failed">Ошибка анализа</string>
+    <string name="err_analysis_timeout">Время анализа истекло</string>
+    <string name="err_rename_success">Имя изменено</string>
+    <string name="err_rename_failed">Не удалось изменить имя</string>
+    <string name="err_analysis_impossible">Не удалось проанализировать видео</string>
+    <string name="err_load_failed">Не удалось загрузить информацию</string>
+    <string name="err_search_failed">Произошла ошибка при поиске</string>
+    <string name="err_already_downloaded">Эта песня уже скачана</string>
+    <string name="err_already_in_queue">Эта загрузка уже существует</string>
+    <string name="err_download_start_failed">Не удалось начать загрузку</string>
+    <string name="err_file_not_found">Скачанный файл не найден</string>
+    <string name="err_download_error_code">Ошибка загрузки (Код: %d)</string>
+    <string name="permission_notif_denied">Уведомления о загрузке не показываются, так как разрешение не было предоставлено.</string>
+
+    <!-- New UI Strings -->
+    <string name="label_audio_quality_caps">КАЧЕСТВО АУДИО</string>
+    <string name="btn_download_mp3_large">СКАЧАТЬ КАК MP3</string>
+    <string name="status_analyzing_dots">Анализ…</string>
+    <string name="empty_downloads_title">Пока нет загрузок</string>
+    <string name="empty_downloads_msg">Начните открывать для себя новую музыку!</string>
+    <string name="btn_delete_confirm">Удалить файл</string>
+    <string name="btn_listen_now_caps">СЛУШАТЬ СЕЙЧАС</string>
+    <string name="recent_searches_header">Недавние поиски</string>
+    <string name="search_results_header">Результаты поиска</string>
+
+    <!-- Notifications -->
+    <string name="notif_downloading">Загрузка…</string>
+    <string name="notif_converting">Конвертация…</string>
+    <string name="notif_writing">Сохранение…</string>
+    <string name="notif_completed">Завершено</string>
+    <string name="notif_failed">Ошибка</string>
+    <string name="notif_paused">Приостановлено</string>
+    <string name="notif_click_to_open">Нажмите, чтобы открыть</string>
+    <string name="notif_channel_name">Загрузки MP3</string>
+    <string name="notif_channel_desc">Фоновые загрузки Soundra</string>
+    <string name="notif_download_complete">Загрузка завершена</string>
+    <string name="notif_completed_channel_name">Завершенные загрузки</string>
+
+    <!-- Updates -->
+    <string name="update_available">Доступна новая версия</string>
+    <string name="update_version">Версия: %s</string>
+    <string name="update_changelog">Что нового:</string>
+    <string name="update_ready">Soundra готова к установке</string>
+    <string name="update_downloading">Загрузка новой версии</string>
+    <string name="update_notif_title">Обновление Soundra</string>
+    <string name="btn_update">Обновить</string>
+    <string name="btn_later">Позже</string>
+    <string name="btn_install">Установить</string>
+    <string name="eta_label">Оставшееся время: %s</string>
+
+    <!-- UI Redesign Strings -->
+    <string name="home_search_title">Поиск песни</string>
+    <string name="home_search_subtitle">Поиск исполнителя или песни</string>
+    <string name="home_popular_title">Популярное</string>
+    <string name="downloads_stat_active">Активно</string>
+    <string name="downloads_stat_queued">В очереди</string>
+    <string name="downloads_stat_completed">Завершено</string>
+    <string name="downloads_section_active">Сейчас загружается</string>
+    <string name="downloads_section_queue">Очередь загрузки</string>
+    <string name="downloads_section_completed">Завершено</string>
+    <string name="downloads_section_paused">Приостановлено</string>
+    <string name="downloads_empty_title">Библиотека пуста</string>
+    <string name="greeting_morning">Доброе утро 👋</string>
+    <string name="greeting_day">Добрый день 👋</string>
+    <string name="greeting_evening">Добрый вечер 👋</string>
+    <string name="greeting_msg">Готовы открывать для себя новую музыку сегодня?</string>
+    <string name="settings_section_language">ЯЗЫК</string>
+    <string name="settings_section_downloads">ЗАГРУЗКИ</string>
+    <string name="settings_section_about">О ПРИЛОЖЕНИИ</string>
+    <string name="results_title">Результаты</string>
+
+    <!-- Personalized Feed -->
+    <string name="home_for_you">Для вас</string>
+    <string name="home_recent_searches">Недавние поиски</string>
+    <string name="home_empty_history_msg">Найдите песню, чтобы начать</string>
+    <string name="home_new_recommendations">Новые рекомендации</string>
+    <string name="home_refresh">Обновить</string>
+
+    <!-- Search Suggestions & History -->
+    <string name="search_suggestions">Предложения</string>
+    <string name="search_clear_all">Очистить все</string>
+    <string name="search_no_history">История поиска пуста</string>
+    <string name="search_recent">Недавние поиски</string>
+    <string name="quality_best_available">Лучшее доступное</string>
+    <string name="quality_label_bitrate">Битрейт</string>
+
+    <!-- Downloads Menu & Dialogs -->
+    <string name="menu_open">Открыть</string>
+    <string name="menu_share">Поделиться</string>
+    <string name="menu_show_location">Показать расположение файла</string>
+    <string name="menu_remove_from_list">Удалить из списка</string>
+    <string name="menu_delete_file">Удалить файл</string>
+    <string name="dialog_delete_file_title">Удалить файл?</string>
+    <string name="dialog_delete_file_msg">Этот MP3-файл будет безвозвратно удален с вашего устройства.</string>
+
+    <!-- Playlists -->
+    <string name="playlists_title">Плейлисты</string>
+    <string name="btn_create_playlist">Новый плейлист</string>
+    <string name="dialog_create_playlist_title">Создать плейлист</string>
+    <string name="dialog_rename_playlist_title">Переименовать</string>
+    <string name="playlist_name_hint">Имя плейлиста</string>
+    <string name="btn_create">Создать</string>
+    <string name="dialog_delete_playlist_title">Удалить плейлист?</string>
+    <string name="dialog_delete_playlist_msg">\"%s\" и его содержимое будут удалены.</string>
+    <string name="no_playlists">Плейлистов пока нет</string>
+    <string name="no_playlists_msg">Создайте свой первый плейлист, чтобы упорядочить музыку.</string>
+    <string name="menu_add_to_playlist">Добавить в плейлист</string>
+    <string name="menu_remove_from_playlist">Удалить из плейлиста</string>
+    <string name="already_in_playlist">Уже в плейлисте</string>
+    <string name="added_to_playlist">Добавлено в плейлист</string>
+    <string name="btn_play_all">Воспроизвести все</string>
+    <string name="songs_count">%d песен</string>
+    <string name="menu_change_cover">Изменить обложку</string>
+    <string name="menu_remove_cover">Удалить обложку</string>
+    <string name="playlist_created_on">Создан %s</string>
+    <string name="sort_recent">Недавно добавленные</string>
+    <string name="sort_oldest">Старые</string>
+    <string name="sort_az">Имя А-Я</string>
+    <string name="sort_za">Имя Я-А</string>
+    <string name="home_hero_greeting">Что вы хотите\nпослушать сегодня?</string>
+    <string name="player_now_playing">Сейчас играет</string>
+    <string name="player_next">Следующий</string>
+    <string name="player_previous">Предыдущий</string>
+    <string name="player_repeat">Повтор</string>
+    <string name="player_shuffle">Перемешать</string>
+    <string name="err_file_unavailable">Файл недоступен</string>
+</resources>

@@ -1,0 +1,290 @@
+<resources>
+    <string name="app_name">Soundra</string>
+
+    <!-- App Modes -->
+    <string name="mode_search">Axtarış</string>
+    <string name="mode_link">Link</string>
+
+    <string name="unknown">Bilinmir</string>
+    <string name="recent_searches">Son axtarışlar</string>
+    <string name="file_missing">Fayl tapılmadı</string>
+    <string name="tag_album">Soundra Yükləmələr</string>
+    <string name="tag_comment">Soundra ilə yüklənib</string>
+    <string name="btn_download">Yüklə</string>
+    <string name="clipboard_detected">YouTube linki aşkarlandı</string>
+    <string name="search_hint_youtube">YouTube-da axtar…</string>
+    <string name="search_hint_downloads">Yükləmələrdə axtar…</string>
+    <string name="paste_hint">YouTube linkini yapışdırın</string>
+    <string name="paste_hint_full">YouTube linkini bura yapışdırın</string>
+    <string name="btn_download_mp3">MP3 olaraq yüklə</string>
+    <string name="btn_download_mp3_caps">MP3 YÜKLƏ</string>
+    <string name="bitrate_kbps">%d kbps</string>
+    <string name="bitrate_kbps_ext">%d kbps (%s)</string>
+    <string name="btn_start_download">Yükləməyə Başla</string>
+    <string name="btn_cancel">Ləğv et</string>
+    <string name="btn_close">Bağla</string>
+    <string name="btn_retry">Yenidən</string>
+    <string name="btn_retry_check">Təkrar yoxla</string>
+    <string name="btn_change">Dəyiş</string>
+    <string name="btn_only_list">Yalnız Siyahıdan</string>
+    <string name="btn_delete_file">Faylı da sil</string>
+    <string name="btn_start_now">İndi başlat</string>
+    <string name="btn_pause">Fasilə ver</string>
+    <string name="btn_resume">Davam et</string>
+    <string name="btn_share">Paylaş</string>
+    <string name="btn_open">Aç</string>
+    <string name="btn_rename">Adını dəyiş</string>
+    <string name="btn_properties">Xüsusiyyətlər</string>
+    <string name="btn_delete">Sil</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Ayarlar</string>
+    <string name="settings_appearance">Görünüş</string>
+    <string name="settings_downloads_group">Yükləmələr</string>
+    <string name="settings_general">Ümumi</string>
+    <string name="settings_about">Haqqında</string>
+    <string name="settings_quality">Yükləmə keyfiyyəti</string>
+    <string name="settings_storage_path">Saxlanma yeri</string>
+    <string name="settings_language">Dil</string>
+    <string name="lang_az">Azərbaycanca</string>
+    <string name="lang_tr">Türkçe</string>
+    <string name="lang_en">English</string>
+    <string name="lang_ru">Rusca</string>
+    <string name="settings_version">Versiya</string>
+    <string name="settings_developer">Yaradıcı</string>
+    <string name="settings_theme">Mövzu</string>
+    <string name="theme_mode">Mövzu</string>
+    <string name="theme_light">İşıqlı</string>
+    <string name="theme_dark">Qaranlıq</string>
+    <string name="theme_system">Sistem</string>
+
+    <!-- Download Options Sheet -->
+    <string name="download_options">Yükləmə Seçimləri</string>
+    <string name="available_quality">MÖVCUD AUDİO KEYFİYYƏT</string>
+    <string name="best_quality">ƏN YAXŞI MÖVCUD KEYFİYYƏT</string>
+    <string name="estimated_size">Təxmini ölçü: %s</string>
+    <string name="recommended">Tövsiyə olunur</string>
+    <string name="quality_label">KEYFİYYƏT</string>
+
+    <!-- Status Messages -->
+    <string name="status_reading_metadata">Məlumatlar oxunur…</string>
+    <string name="status_checking_metadata">Məlumatlar yoxlanılır…</string>
+    <string name="status_ready_to_download">Yükləməyə hazırdır</string>
+    <string name="status_preparing_download">Yükləmə hazırlanır…</string>
+    <string name="status_analyzing_youtube">YouTube audio analizi aparılır…</string>
+    <string name="status_downloading">Yüklənir…</string>
+    <string name="status_downloading_caps">YÜKLƏNİR: %d%%</string>
+    <string name="status_downloaded_caps">YÜKLƏNDİ</string>
+    <string name="status_converting">Çevrilir (%s)…</string>
+    <string name="status_writing_metadata">Yaddaşa yazılır…</string>
+    <string name="status_completed">Tamamlandı!</string>
+    <string name="status_wait">Gözləyin: %% %d</string>
+    <string name="status_song_downloading">Mahnı yüklənir…</string>
+    <string name="status_download_completed">Yükləmə tamamlandı</string>
+
+    <!-- Download Status Chips -->
+    <string name="state_queued">Növbədə</string>
+    <string name="state_preparing">Hazırlanır</string>
+    <string name="state_downloading">Yüklənir</string>
+    <string name="state_converting">Çevrilir</string>
+    <string name="state_writing">Yadda saxlanılır</string>
+    <string name="state_completed">Tamamlandı</string>
+    <string name="state_failed">Xəta</string>
+    <string name="state_cancelled">Ləğv edildi</string>
+    <string name="state_paused">Fasilə</string>
+    <string name="state_resuming">Davam edir</string>
+
+    <!-- Downloads Screen -->
+    <string name="downloads_title">Yükləmələr</string>
+    <string name="stats_storage">Yaddaş</string>
+    <string name="stats_completed">Bitmiş</string>
+    <string name="stats_active">Aktiv</string>
+    <string name="stats_queued">Növbədə</string>
+    <string name="stats_paused">Fasilə</string>
+
+    <string name="filter_all">Hamısı</string>
+    <string name="filter_active">Aktiv (%d)</string>
+    <string name="filter_completed">Tamamlandı (%d)</string>
+    <string name="filter_failed">Xəta (%d)</string>
+    <string name="filter_queued">Növbədə (%d)</string>
+
+    <string name="no_results">Nəticə tapılmadı</string>
+    <string name="no_downloads">Yükləmə yoxdur</string>
+    <string name="share_song">Mahnını paylaş</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_delete_title">Silinsin?</string>
+    <string name="dialog_delete_message">%s siyahıdan silinsin?</string>
+    <string name="dialog_rename_title">Adını dəyiş</string>
+    <string name="dialog_rename_error_empty">Ad boş ola bilməz</string>
+    <string name="dialog_rename_label">Yeni ad</string>
+
+    <string name="dialog_properties_title">Fayl məlumatları</string>
+    <string name="dialog_properties_unavailable_title">Məlumat yoxdur</string>
+    <string name="dialog_properties_unavailable_msg">Bu fayl üçün məlumatlar əlçatmazdır. Fayl silinmiş və ya zədələnmiş ola bilər.</string>
+
+    <string name="prop_title">Başlıq</string>
+    <string name="prop_file_name">Fayl adı</string>
+    <string name="prop_duration">Müddət</string>
+    <string name="prop_bitrate">Bitreyt</string>
+    <string name="prop_sample_rate">Sample Rate</string>
+    <string name="prop_channels">Kanallar</string>
+    <string name="prop_format">Format</string>
+    <string name="prop_size">Ölçü</string>
+    <string name="prop_created">Yaradılma</string>
+    <string name="prop_modified">Dəyişdirilmə</string>
+    <string name="prop_path">Tam yol</string>
+    <string name="prop_uri">URI</string>
+
+    <!-- Search -->
+    <string name="search_home_title">Ana Səhifə</string>
+    <string name="search_empty_title">Mahnı və ya ifaçı axtarın</string>
+    <string name="search_empty_msg">Sevimlilərini tapmaq üçün yuxarıdan başlayın</string>
+    <string name="search_error_title">Axtarış xətası</string>
+
+    <string name="cat_all">Hamısı</string>
+    <string name="cat_music">Musiqi</string>
+    <string name="cat_gaming">Oyunlar</string>
+    <string name="cat_live">Canlı</string>
+    <string name="cat_news">Xəbərlər</string>
+    <string name="cat_mixes">Mikslər</string>
+    <string name="cat_recs">Tövsiyələr</string>
+    <string name="cat_popular">Populyar</string>
+
+    <string name="views_format">%s baxış</string>
+    <string name="views_billion">%.1fB</string>
+    <string name="views_million">%.1fM</string>
+    <string name="views_thousand">%.1fK</string>
+
+    <!-- Errors & Snackbars -->
+    <string name="err_link_not_found">Mahnı linki tapılmadı</string>
+    <string name="err_preview_failed">Dinləmək mümkün olmadı</string>
+    <string name="err_video_not_loaded">Video yüklənmədi</string>
+    <string name="err_metadata_not_found">Video məlumatları tapılmadı</string>
+    <string name="err_analysis_failed">Analiz xətası</string>
+    <string name="err_analysis_timeout">Analiz vaxtı bitdi</string>
+    <string name="err_rename_success">Ad dəyişdirildi</string>
+    <string name="err_rename_failed">Ad dəyişdirilə bilmədi</string>
+    <string name="err_analysis_impossible">Videonun analizi mümkün olmadı</string>
+    <string name="err_load_failed">Məlumatları yükləmək mümkün olmadı</string>
+    <string name="err_search_failed">Axtarış zamanı xəta baş verdi</string>
+    <string name="err_already_downloaded">Bu mahnı artıq yüklənib</string>
+    <string name="err_already_in_queue">Bu yükləmə artıq mövcuddur</string>
+    <string name="err_download_start_failed">Yükləməni başlatmaq mümkün olmadı</string>
+    <string name="err_file_not_found">Yüklənmiş fayl tapılmadı</string>
+    <string name="err_download_error_code">Yükləmə xətası (Kod: %d)</string>
+    <string name="permission_notif_denied">Bildiriş icazəsi verilmədiyi üçün yükləmə bildirişləri göstərilmir.</string>
+
+    <!-- New UI Strings -->
+    <string name="label_audio_quality_caps">SES KEYFİYYƏTİ</string>
+    <string name="btn_download_mp3_large">MP3 OLARAQ YÜKLƏ</string>
+    <string name="status_analyzing_dots">Analiz edilir…</string>
+    <string name="empty_downloads_title">Hələlik yükləmə yoxdur</string>
+    <string name="empty_downloads_msg">Yeni musiqilər kəşf etməyə başla!</string>
+    <string name="btn_delete_confirm">Faylı sil</string>
+    <string name="btn_listen_now_caps">İNDİ DİNLƏ</string>
+    <string name="recent_searches_header">Son axtarışların</string>
+    <string name="search_results_header">Axtarış nəticələri</string>
+
+    <!-- Notifications -->
+    <string name="notif_downloading">Yüklənir…</string>
+    <string name="notif_converting">Çevrilir…</string>
+    <string name="notif_writing">Yaddaşa yazılır…</string>
+    <string name="notif_completed">Tamamlandı</string>
+    <string name="notif_failed">Uğursuz oldu</string>
+    <string name="notif_paused">Fasilə verildi</string>
+    <string name="notif_click_to_open">Açmaq üçün klikləyin</string>
+    <string name="notif_channel_name">MP3 Yükləmələr</string>
+    <string name="notif_channel_desc">Soundra Fon Yükləmələri</string>
+    <string name="notif_download_complete">Yükləmə tamamlandı</string>
+    <string name="notif_completed_channel_name">Tamamlanmış Yükləmələr</string>
+
+    <!-- Updates -->
+    <string name="update_available">Yeni versiya mövcuddur</string>
+    <string name="update_version">Versiya: %s</string>
+    <string name="update_changelog">Yeniliklər:</string>
+    <string name="update_ready">Soundra quraşdırılmağa hazırdır</string>
+    <string name="update_downloading">Yeni versiya endirilir</string>
+    <string name="update_notif_title">Soundra yenilənməsi</string>
+    <string name="btn_update">Yenilə</string>
+    <string name="btn_later">Sonra</string>
+    <string name="btn_install">Quraşdır</string>
+    <string name="eta_label">Qalan vaxt: %s</string>
+
+    <!-- UI Redesign Strings -->
+    <string name="home_search_title">Mahnı axtar</string>
+    <string name="home_search_subtitle">İfaçı və ya mahnı axtar</string>
+    <string name="home_popular_title">Populyar</string>
+    <string name="downloads_stat_active">Aktiv</string>
+    <string name="downloads_stat_queued">Növbədə</string>
+    <string name="downloads_stat_completed">Bitmiş</string>
+    <string name="downloads_section_active">İndi yüklənir</string>
+    <string name="downloads_section_queue">Yükləmə növbəsi</string>
+    <string name="downloads_section_completed">Tamamlananlar</string>
+    <string name="downloads_section_paused">Dayandırılanlar</string>
+    <string name="downloads_empty_title">Kitabxanan boşdur</string>
+    <string name="greeting_morning">Xoş Sabahlar</string>
+    <string name="greeting_day">Xoş Günlər</string>
+    <string name="greeting_evening">Xoş Axşamlar</string>
+    <string name="greeting_msg">Yepyeni mahnılar kəşf etməyə hazırsan?</string>
+    <string name="settings_section_language">DİL</string>
+    <string name="settings_section_downloads">YÜKLƏMƏLƏR</string>
+    <string name="settings_section_about">HAQQINDA</string>
+    <string name="results_title">Nəticələr</string>
+
+    <!-- Personalized Feed -->
+    <string name="home_for_you">Sənin üçün</string>
+    <string name="home_recent_searches">Son axtarışlar</string>
+    <string name="home_empty_history_msg">Başlamaq üçün bir mahnı axtar</string>
+    <string name="home_new_recommendations">Yeni tövsiyələr</string>
+    <string name="home_refresh">Yenilə</string>
+
+    <!-- Search Suggestions & History -->
+    <string name="search_suggestions">Təkliflər</string>
+    <string name="search_clear_all">Hamısını sil</string>
+    <string name="search_no_history">Axtarış tarixçəsi yoxdur</string>
+    <string name="search_recent">Son axtarışlar</string>
+    <string name="quality_best_available">Ən yaxşı mövcud</string>
+    <string name="quality_label_bitrate">Bitreyt</string>
+
+    <!-- Downloads Menu & Dialogs -->
+    <string name="menu_open">Aç</string>
+    <string name="menu_share">Paylaş</string>
+    <string name="menu_show_location">Faylın yerini göstər</string>
+    <string name="menu_remove_from_list">Siyahıdan sil</string>
+    <string name="menu_delete_file">Faylı sil</string>
+    <string name="dialog_delete_file_title">Faylı silmək istəyirsiniz?</string>
+    <string name="dialog_delete_file_msg">Bu MP3 faylı cihazdan silinəcək.</string>
+
+    <!-- Playlists -->
+    <string name="playlists_title">Pleylistlər</string>
+    <string name="btn_create_playlist">Yeni Pleylist</string>
+    <string name="dialog_create_playlist_title">Pleylist yarat</string>
+    <string name="dialog_rename_playlist_title">Adını dəyiş</string>
+    <string name="playlist_name_hint">Pleylist adı</string>
+    <string name="btn_create">Yarat</string>
+    <string name="dialog_delete_playlist_title">Pleylist silinsin?</string>
+    <string name="dialog_delete_playlist_msg">\"%s\" pleylisti və daxilindəki mahnı siyahısı silinəcək.</string>
+    <string name="no_playlists">Hələlik pleylist yoxdur</string>
+    <string name="no_playlists_msg">İlk pleylistini yarat və sevimli musiqilərini nizamla.</string>
+    <string name="menu_add_to_playlist">Pleylistə əlavə et</string>
+    <string name="menu_remove_from_playlist">Pleylistdən sil</string>
+    <string name="already_in_playlist">Bu mahnı artıq pleylistdə var</string>
+    <string name="added_to_playlist">Pleylistə əlavə edildi</string>
+    <string name="btn_play_all">Hamısını oxut</string>
+    <string name="songs_count">%d mahnı</string>
+    <string name="menu_change_cover">Üzlük şəklini dəyiş</string>
+    <string name="menu_remove_cover">Üzlük şəklini sil</string>
+    <string name="playlist_created_on">%s tarixində yaradılıb</string>
+    <string name="sort_recent">Son əlavə edilənlər</string>
+    <string name="sort_oldest">Ən köhnə</string>
+    <string name="sort_az">Ad A-Z</string>
+    <string name="sort_za">Ad Z-A</string>
+    <string name="home_hero_greeting">Bu gün nə\ndinləmək istəyirsən?</string>
+    <string name="player_now_playing">Oxudulur</string>
+    <string name="player_next">Növbəti</string>
+    <string name="player_previous">Əvvəlki</string>
+    <string name="player_repeat">Təkrar</string>
+    <string name="player_shuffle">Qarışdır</string>
+    <string name="err_file_unavailable">Fayl mövcud deyil</string>
+</resources>
