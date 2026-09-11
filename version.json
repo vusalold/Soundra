@@ -1,12 +1,8 @@
 ﻿{
-  "versionCode": 2,
-  "versionName": "1.1.0",
+  "versionCode": 3,
+  "versionName": "1.2.0",
   "apkUrl": "https://github.com/vusalold/Soundra/releases/latest/download/Soundra.apk",
   "changelog": [
-    "Soundra v1.0.0 rəsmi ilk buraxılış",
-    "Bug Fix",
-    "Yeni dizayn və cəlbedici neon interfeys",
-    "YouTube-dan sürətli və keyfiyyətli MP3 yükləmə",
-    "Daxili audio pleyer və pleylist idarəetməsi"
+    "İkon yeniləndi",
   ]
 }
