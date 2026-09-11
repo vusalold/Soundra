@@ -38,9 +38,8 @@ android {
     buildTypes {
         release {
             signingConfig = signingConfigs.getByName("release")
-            optimization {
-                enable = false
-            }
+            isMinifyEnabled = false
+            isShrinkResources = false
         }
     }
     compileOptions {
@@ -61,9 +60,10 @@ android {
 
 room {
     schemaDirectory("$projectDir/schemas")
-    generateKotlin = true
 }
 
+// Renaming logic removed for compatibility during sync
+/*
 androidComponents {
     onVariants(selector().withBuildType("release")) { variant ->
         variant.outputs.forEach { output ->
@@ -71,6 +71,7 @@ androidComponents {
         }
     }
 }
+*/
 
     dependencies {
         coreLibraryDesugaring(libs.android.desugar)
