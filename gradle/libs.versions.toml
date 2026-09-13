@@ -11,7 +11,7 @@ kotlin = "2.1.0"
 composeBom = "2024.12.01"
 newpipe = "master-SNAPSHOT"
 okhttp = "4.12.0"
-ffmpeg = "6.0"
+ffmpeg = "8.1.7"
 smartException = "0.2.1"
 desugar = "2.1.4"
 coil = "2.7.0"
@@ -58,6 +58,7 @@ androidx-room-compiler = { group = "androidx.room", name = "room-compiler", vers
 androidx-media3-exoplayer = { group = "androidx.media3", name = "media3-exoplayer", version.ref = "media3" }
 androidx-media3-ui = { group = "androidx.media3", name = "media3-ui", version.ref = "media3" }
 androidx-media3-common = { group = "androidx.media3", name = "media3-common", version.ref = "media3" }
+androidx-media3-session = { group = "androidx.media3", name = "media3-session", version.ref = "media3" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

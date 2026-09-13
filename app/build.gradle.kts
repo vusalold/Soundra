@@ -8,15 +8,15 @@ plugins {
 }
 
 android {
-    namespace = "com.vusal.soundra"
+    namespace = "com.vm.soundra"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.vusal.soundra"
+        applicationId = "com.vm.soundra"
         minSdk = 26
         targetSdk = 35
-        versionCode = 3
-        versionName = "1.2.0"
+        versionCode = 4
+        versionName = "1.3.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         ndk {
@@ -105,6 +105,7 @@ androidComponents {
     implementation(libs.androidx.media3.exoplayer)
     implementation(libs.androidx.media3.ui)
     implementation(libs.androidx.media3.common)
+    implementation(libs.androidx.media3.session)
 
     testImplementation(libs.junit)
     androidTestImplementation(platform(libs.androidx.compose.bom))
