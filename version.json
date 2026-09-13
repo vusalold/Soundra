@@ -1,8 +1,8 @@
-﻿{
+{
   "versionCode": 5,
   "versionName": "1.4.0",
   "apkUrl": "https://github.com/vusalold/Soundra/releases/latest/download/Soundra.apk",
   "changelog": [
-    "Auto-Update Test"
+    "Auto update test"
   ]
 }
